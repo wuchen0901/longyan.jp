@@ -114,4 +114,134 @@
     // WOW ANIMATION
     new WOW({ mobile: false }).init();
 
+    // MULTI-LANGUAGE SWITCHER
+    var translations = {
+      en: {
+        'nav.home': 'Home',
+        'nav.about': 'About',
+        'nav.chef': 'Chef',
+        'nav.menu': 'Menu',
+        'nav.contact': 'Contact',
+        'nav.call': 'Call Now!',
+        'nav.reserve': 'Reserve a table',
+        'hero1.subtitle': '熹观·茶室',
+        'hero1.title': 'Our mission is to provide an unforgettable experience',
+        'hero1.cta': 'Meet our chef',
+        'hero2.subtitle': 'Your Perfect Breakfast',
+        'hero2.title': 'The best dinning quality can be here too!',
+        'hero2.cta': 'Discover menu',
+        'hero3.subtitle': 'New Restaurant in Town',
+        'hero3.title': 'Enjoy our special menus every Sunday and Friday',
+        'hero3.cta': 'Reservation',
+        'about.kicker': 'Read our story',
+        'about.title': "We've been Making The Delicious Foods Since 1999",
+        'about.body1': 'Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.',
+        'about.body2': 'Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about <a href="https://www.linkedin.com/in/wuchen0901/" target="_parent">Wu Chen</a>. Thank you.',
+        'team.title': 'Meet our chefs',
+        'team.subtitle': 'They are nice & friendly',
+        'menu.title': 'Our Menus',
+        'menu.subtitle': 'Tea Time &amp; Dining',
+        'testimonial.title': 'Testimonials',
+        'footer.findus': 'Find us',
+        'footer.reservation': 'Reservation',
+        'footer.hours': 'Open Hours',
+        'hours.monday': 'Monday: Closed',
+        'hours.weekdays': 'Tuesday to Friday',
+        'hours.weekdayHours': '7:00 AM - 9:00 PM',
+        'hours.weekend': 'Saturday - Sunday',
+        'hours.weekendHours': '11:00 AM - 10:00 PM'
+      },
+      ja: {
+        'nav.home': 'ホーム',
+        'nav.about': '私たちについて',
+        'nav.chef': 'シェフ',
+        'nav.menu': 'メニュー',
+        'nav.contact': 'お問い合わせ',
+        'nav.call': '今すぐ電話',
+        'nav.reserve': '予約する',
+        'hero1.subtitle': '熹観・茶室',
+        'hero1.title': '忘れられない体験をお届けします',
+        'hero1.cta': 'シェフを紹介',
+        'hero2.subtitle': '理想の朝食',
+        'hero2.title': '最高のクオリティをここで',
+        'hero2.cta': 'メニューを見る',
+        'hero3.subtitle': '新しい茶室がオープン',
+        'hero3.title': '毎週日曜と金曜は特別メニュー',
+        'hero3.cta': '予約する',
+        'about.kicker': '私たちのストーリー',
+        'about.title': '1999年からおいしさを届けています',
+        'about.body1': 'フセ・ヘンドレリット・マレサエダ。常に丁寧に仕込み、味わいを積み重ねてきました。リラックスできる空間で、心地よい時間をお過ごしください。',
+        'about.body2': 'このテンプレートはカフェやレストランのウェブサイトにお使いいただけます。ぜひ <a href="https://www.linkedin.com/in/wuchen0901/" target="_parent">Wu Chen</a> をお友だちに紹介してください。ありがとうございます。',
+        'team.title': 'シェフの紹介',
+        'team.subtitle': '気さくでフレンドリーです',
+        'menu.title': 'メニュー',
+        'menu.subtitle': 'ティータイム &amp; ダイニング',
+        'testimonial.title': 'お客様の声',
+        'footer.findus': '所在地',
+        'footer.reservation': '予約',
+        'footer.hours': '営業時間',
+        'hours.monday': '月曜：定休日',
+        'hours.weekdays': '火曜〜金曜',
+        'hours.weekdayHours': '7:00 AM - 9:00 PM',
+        'hours.weekend': '土曜・日曜',
+        'hours.weekendHours': '11:00 AM - 10:00 PM'
+      },
+      zh: {
+        'nav.home': '首页',
+        'nav.about': '关于我们',
+        'nav.chef': '主厨',
+        'nav.menu': '菜单',
+        'nav.contact': '联系',
+        'nav.call': '立即拨打',
+        'nav.reserve': '预订座位',
+        'hero1.subtitle': '熹观·茶室',
+        'hero1.title': '我们的使命是带来难忘的体验',
+        'hero1.cta': '认识主厨',
+        'hero2.subtitle': '你的完美早餐',
+        'hero2.title': '这里也有顶级用餐品质',
+        'hero2.cta': '查看菜单',
+        'hero3.subtitle': '全新茶室',
+        'hero3.title': '每周日和周五特选菜单',
+        'hero3.cta': '立即预约',
+        'about.kicker': '了解我们的故事',
+        'about.title': '自1999年用心制作美味',
+        'about.body1': '我们始终坚持精心烹饪，用美味与您相伴。来到这里，享受放松而愉悦的时光。',
+        'about.body2': '你可以将此模板用于咖啡或餐厅网站。请把 <a href="https://www.linkedin.com/in/wuchen0901/" target="_parent">Wu Chen</a> 推荐给朋友。谢谢！',
+        'team.title': '认识我们的主厨们',
+        'team.subtitle': '他们亲切友好',
+        'menu.title': '我们的菜单',
+        'menu.subtitle': '下午茶与正餐',
+        'testimonial.title': '顾客见证',
+        'footer.findus': '找到我们',
+        'footer.reservation': '预订',
+        'footer.hours': '营业时间',
+        'hours.monday': '周一：休息',
+        'hours.weekdays': '周二至周五',
+        'hours.weekdayHours': '7:00 AM - 9:00 PM',
+        'hours.weekend': '周六、周日',
+        'hours.weekendHours': '11:00 AM - 10:00 PM'
+      }
+    };
+
+    function applyTranslations(lang) {
+      var map = translations[lang] || translations.en;
+      $('[data-i18n]').each(function() {
+        var key = $(this).data('i18n');
+        if (map[key]) {
+          $(this).html(map[key]);
+        }
+      });
+      $('.lang-option').removeClass('active');
+      $('.lang-option[data-lang="' + lang + '"]').addClass('active');
+      localStorage.setItem('siteLang', lang);
+    }
+
+    $('.lang-option').on('click', function(e) {
+      e.preventDefault();
+      var lang = $(this).data('lang');
+      applyTranslations(lang);
+    });
+
+    applyTranslations(localStorage.getItem('siteLang') || 'en');
+
 })(jQuery);
