@@ -242,6 +242,6 @@
       applyTranslations(lang);
     });
 
-    applyTranslations(localStorage.getItem('siteLang') || 'en');
+    applyTranslations('ja');
 
 })(jQuery);
