@@ -119,7 +119,7 @@
       en: {
         'nav.home': 'Home',
         'nav.about': 'About',
-        'nav.chef': 'Chef',
+        'nav.chef': 'Asaki Objects',
         'nav.menu': 'Menu',
         'nav.contact': 'Contact',
         'nav.call': 'Call Now!',
@@ -160,7 +160,7 @@
       ja: {
         'nav.home': 'ホーム',
         'nav.about': '私たちについて',
-        'nav.chef': 'シェフ',
+        'nav.chef': '浅 喜 文 玩 器 物',
         'nav.menu': 'メニュー',
         'nav.contact': 'お問い合わせ',
         'nav.call': '今すぐ電話',
@@ -201,7 +201,7 @@
       zh: {
         'nav.home': '首页',
         'nav.about': '关于我们',
-        'nav.chef': '主厨',
+        'nav.chef': '浅喜文玩器物',
         'nav.menu': '菜单',
         'nav.contact': '联系',
         'nav.call': '立即拨打',
