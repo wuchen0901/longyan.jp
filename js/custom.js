@@ -159,7 +159,7 @@
       },
       ja: {
         'nav.home': 'ホーム',
-        'nav.about': '私たちについて',
+        'nav.about': '浅喜について',
         'nav.chef': '浅喜文玩器物',
         'nav.menu': '浅喜家具',
         'nav.contact': 'お問い合わせ',
@@ -170,7 +170,7 @@
         'hero1.cta': '製品を見る',
         'hero2.subtitle': '理想の朝食',
         'hero2.title': '最高のクオリティをここで',
-        'hero2.cta': 'メニューを見る',
+        'hero2.cta': '家具を見る',
         'hero3.subtitle': '新しい茶室がオープン',
         'hero3.title': '毎週日曜と金曜は特別メニュー',
         'hero3.cta': '予約する',
