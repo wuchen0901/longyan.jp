@@ -278,7 +278,7 @@
         'product.woodDesc': '原木自然、工艺质朴、温暖风',
         'product.ceramicDesc': '手工感、色彩丰富、传统与现代',
         'product.glassDesc': '通透、现代感、轻盈灵动',
-        'menu.title': '我们的菜单',
+        'menu.title': '文玩器物',
         'menu.subtitle': '格古而知新',
         'testimonial.title': '顾客见证',
         'nav.careers': '招聘信息',
