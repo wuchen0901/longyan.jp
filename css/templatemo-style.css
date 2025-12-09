@@ -864,7 +864,8 @@ http://www.templatemo.com/tm-515-eatery
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
-  @media screen and (max-width: 1170px) {
+  /* Remove the wide left offset a bit earlier to avoid a wrap jump near 1200px */
+  @media screen and (max-width: 1250px) {
     .custom-navbar .navbar-nav.navbar-nav-first {
       margin-left: inherit;
     }
@@ -922,6 +923,77 @@ http://www.templatemo.com/tm-515-eatery
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
+    }
+  }
+
+  /* Tighten spacing on medium desktops so nav fits in one line */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .custom-navbar .navbar-brand {
+      padding-right: 10px;
+    }
+
+    .custom-navbar .nav li a {
+      padding-right: 14px;
+      padding-left: 14px;
+    }
+
+    .custom-navbar .navbar-nav.navbar-right li a {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .custom-navbar .navbar-nav.navbar-right .section-btn {
+      margin: 0.2em 0 0 0.5em;
+    }
+  }
+
+  /* Collapse navbar earlier so long labels don't wrap before the toggle appears */
+  @media only screen and (max-width: 991px) {
+    .custom-navbar .navbar-header {
+      float: none;
+    }
+
+    .custom-navbar .navbar-brand {
+      padding-left: 0;
+    }
+
+    .custom-navbar .navbar-toggle {
+      display: block;
+    }
+
+    .custom-navbar .navbar-collapse {
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .custom-navbar .navbar-collapse.collapse {
+      display: none !important;
+    }
+
+    .custom-navbar .navbar-collapse.collapse.in {
+      display: block !important;
+    }
+
+    .custom-navbar .navbar-nav {
+      float: none !important;
+      margin: 7.5px 0;
+    }
+
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: 0;
+    }
+
+    .custom-navbar .navbar-nav > li {
+      float: none;
+    }
+
+    .custom-navbar .navbar-nav.navbar-right {
+      float: none !important;
+    }
+
+    .custom-navbar .navbar-nav.navbar-right .section-btn {
+      display: block;
+      margin: 10px 0;
     }
   }
 
