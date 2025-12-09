@@ -391,7 +391,7 @@
           <li><a href="#" class="fa fa-google"></a></li>\
         </ul>\
         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">\
-          <p><br>Copyright &copy; 2018 <br>朗元株式会社 <br><br></p>\
+          <p><br>Copyright &copy; <span class="current-year"></span> <br>朗元株式会社 <br><br></p>\
         </div>\
       </div>\
     </div>\
@@ -413,6 +413,11 @@
         return Promise.resolve();
       }
       placeholder.innerHTML = footerTemplate;
+      var year = new Date().getFullYear();
+      var yearNodes = placeholder.getElementsByClassName('current-year');
+      for (var i = 0; i < yearNodes.length; i++) {
+        yearNodes[i].textContent = year;
+      }
       return Promise.resolve();
     }
 
