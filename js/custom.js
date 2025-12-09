@@ -174,7 +174,13 @@
         'hours.weekdays': 'Tuesday to Friday',
         'hours.weekdayHours': '7:00 AM - 9:00 PM',
         'hours.weekend': 'Saturday - Sunday',
-        'hours.weekendHours': '11:00 AM - 10:00 PM'
+        'hours.weekendHours': '11:00 AM - 10:00 PM',
+        'furniture.kicker': 'About Casachy',
+        'furniture.title': 'Casachy Furniture',
+        'furniture.intro1': 'We refine classical forms and strictly adjust our furniture so every piece feels alive. Materials are carefully chosen and processes certified (FSC wood, BSCI production) to meet responsible standards.',
+        'furniture.intro2': '"Casachy" is a quiet attitude—an inner awakening, a gentle balance like a flower held with a smile or the fleeting feeling of a butterfly dream.',
+        'furniture.craft1': 'Traditional joinery is the heart of Chinese furniture. We insist on true mortise-and-tenon—not biscuit or dowel—built to historical precision. Many joints cannot be mass-produced and demand patient handwork.',
+        'furniture.craft2': 'We use solid wood for its warm, breathing quality. Like classical pieces, we frame panels on all sides to manage movement, a labor-intensive approach that keeps table tops stable and reassuring.'
       },
       ja: {
         'nav.home': 'ホーム',
@@ -224,7 +230,13 @@
         'hours.weekdays': '火曜〜金曜',
         'hours.weekdayHours': '7:00 AM - 9:00 PM',
         'hours.weekend': '土曜・日曜',
-        'hours.weekendHours': '11:00 AM - 10:00 PM'
+        'hours.weekendHours': '11:00 AM - 10:00 PM',
+        'furniture.kicker': '浅喜について',
+        'furniture.title': '浅喜家具',
+        'furniture.intro1': '古典の形を見直し、素材も工法も厳しく管理。FSC認証の木材、BSCI認証の製造で責任ある家具づくりを徹底しています。',
+        'furniture.intro2': '「浅喜」は静かな姿勢。中庸を求める内なる悟りであり、拈花微笑や夢蝶のような淡い感覚を大切にします。',
+        'furniture.craft1': '中国伝統家具の核心は榫卯（ほぞ組）。ビスケットやダボではなく、古法の精緻なほぞを守ります。多くの工程が手作業となり、量産には向きません。',
+        'furniture.craft2': '温かな質感をもつ無垢材を使用。四方框に芯板を通す伝統構造で木の呼吸に対応し、手間はかかりますが安定した天板を実現します。',
       },
       zh: {
         'nav.home': '首页',
@@ -274,7 +286,13 @@
         'hours.weekdays': '周二至周五',
         'hours.weekdayHours': '7:00 AM - 9:00 PM',
         'hours.weekend': '周六、周日',
-        'hours.weekendHours': '11:00 AM - 10:00 PM'
+        'hours.weekendHours': '11:00 AM - 10:00 PM',
+        'furniture.kicker': '关于浅喜',
+        'furniture.title': '浅喜家具',
+        'furniture.intro1': '对古典形制进行梳理，对家具进行了严格的要求及调整。为确保每一件家具都是活着的有生命力的作品，浅喜的家具无论在原材料的选择上及工艺上都严格把关。所用的木材均获得FSC认证(国际森林认证)，制作过程也获得BSCI认证，符合欧盟社会责任的标准。',
+        'furniture.intro2': '“浅喜”是一种安静的态度，是源自内心的感悟，是在不偏不倚中追寻中道，一种淡淡的感觉，如同佛经描摹的拈花一笑，一丝轻轻的触动，就像文人叹咏的庄生梦蝶。',
+        'furniture.craft1': '中国传统家具工艺的核心在于榫卯结构，虽然外部不着痕迹，但是榫卯却是家具文化最关键的部分。浅喜坚持使用纯正的榫卯结构，不仅仅是为了家具的牢固度，更是为了文化的传承。现代家具常用的圆木榫，饼干榫，严格来说并不是真正意义上的传统榫卯。浅喜的榫卯结构完全以古人精工细作的标准来要求自己。比如椅子，在试拼装未涂任何胶水时，就已经可以稳稳端坐。因此，浅喜家具的多数榫卯并不适合机器大规模生产，需要诸多繁复的手作工序。',
+        'furniture.craft2': '浅喜家具的选材上坚持使用实木。实木温润厚实的质感是其他材料所无法替代的。实木是一种会呼吸的材料，随着气候的变化会收缩膨胀，所以浅喜所有的家具和传统家具一样采用了四边框加芯板穿带的结构，来使桌面稳固，这种结构比现在主流的整板实木桌面要费工许多，却也安心许多。'
       }
     };
 
