@@ -311,7 +311,7 @@
         <li><a href="index.html" data-i18n="nav.home">ホーム</a></li>\
         <li><a href="about.html" data-i18n="nav.about">浅喜について</a></li>\
         <li><a href="wares.html" data-i18n="nav.objects">Casachy Wares</a></li>\
-        <li><a href="#menu" class="smoothScroll" data-i18n="nav.menu">浅喜家具</a></li>\
+        <li><a href="furniture.html" data-i18n="nav.menu">浅喜家具</a></li>\
         <li><a href="#contact" class="smoothScroll" data-i18n="nav.contact">Contact</a></li>\
       </ul>\
       <ul class="nav navbar-nav navbar-right">\
