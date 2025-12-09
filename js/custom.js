@@ -138,7 +138,7 @@
         'hero1.subtitle': '浅喜·CASACHY',
         'hero1.title': 'Champion a new literati lifestyle',
         'hero1.cta': 'About Casachy',
-        'hero2.subtitle': 'Your Perfect Breakfast',
+        'hero2.subtitle': '浅喜器物',
         'hero2.title': 'The best dinning quality can be here too!',
         'hero2.cta': 'Discover menu',
         'hero3.subtitle': 'New Restaurant in Town',
