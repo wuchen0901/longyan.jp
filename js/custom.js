@@ -167,6 +167,7 @@
         'menu.title': 'Our Menus',
         'menu.subtitle': 'Honoring the classics, discovering the new',
         'testimonial.title': 'Testimonials',
+        'nav.careers': 'Careers',
         'footer.findus': 'Find us',
         'footer.reservation': 'Reservation',
         'footer.hours': 'Open Hours',
@@ -223,6 +224,7 @@
         'menu.title': '浅喜家具',
         'menu.subtitle': '格古にして新を知る',
         'testimonial.title': 'お客様の声',
+        'nav.careers': '採用情報',
         'footer.findus': '所在地',
         'footer.reservation': '予約',
         'footer.hours': '営業時間',
@@ -279,6 +281,7 @@
         'menu.title': '我们的菜单',
         'menu.subtitle': '格古而知新',
         'testimonial.title': '顾客见证',
+        'nav.careers': '招聘信息',
         'footer.findus': '找到我们',
         'footer.reservation': '预订',
         'footer.hours': '营业时间',
@@ -330,6 +333,7 @@
         <li><a href="about.html" data-i18n="nav.about">浅喜について</a></li>\
         <li><a href="wares.html" data-i18n="nav.objects">Casachy Wares</a></li>\
         <li><a href="furniture.html" data-i18n="nav.menu">浅喜家具</a></li>\
+        <li><a href="careers.html" data-i18n="nav.careers">採用情報</a></li>\
         <li><a href="#contact" class="smoothScroll" data-i18n="nav.contact">Contact</a></li>\
       </ul>\
       <ul class="nav navbar-nav navbar-right">\
