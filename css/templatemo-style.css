@@ -8,6 +8,10 @@ http://www.templatemo.com/tm-515-eatery
 
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
+  :root {
+    --brand-color: #462A20;
+  }
+
   body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -72,7 +76,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   a:hover, a:active, a:focus {
-    color: #462A20;
+    color: var(--brand-color);
     outline: none;
   }
 
@@ -142,7 +146,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   .section-btn {
-    background: #462A20;
+    background: var(--brand-color);
     border-radius: 0;
     border: 0;
     color: #f9f9f9;
@@ -221,7 +225,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .custom-navbar .navbar-brand span {
-    color: #462A20;
+    color: var(--brand-color);
   }
 
   .top-nav-collapse {
@@ -270,7 +274,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #462A20;
+    color: var(--brand-color);
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -280,7 +284,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #462A20;
+    color: var(--brand-color);
   }
 
   .custom-navbar .navbar-toggle {
@@ -429,7 +433,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .slider .item-third .section-btn:hover,
   .slider .item-third .section-btn:focus {
-    background: #462A20;
+    background: var(--brand-color);
     border-color: transparent;
     color: #ffffff;
   }
@@ -728,7 +732,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #contact button#cf-submit {
-    background: #462A20;
+    background: var(--brand-color);
     border-radius: 0;
     border: 0;
     color: #ffffff;
@@ -780,7 +784,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .footer-open-hour {
-    background: #462A20;
+    background: var(--brand-color);
     background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -838,7 +842,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .social-icon li a {
     border-radius: 100px;
-    color: #462A20;
+    color: var(--brand-color);
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -850,7 +854,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .social-icon li a:hover {
-    background: #462A20;
+    background: var(--brand-color);
     color: #ffffff;
   }
 
