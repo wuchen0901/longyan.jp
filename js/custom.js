@@ -9,17 +9,25 @@
 
 
     // MENU
-    $('.navbar-collapse a').on('click',function(){
-      $(".navbar-collapse").collapse('hide');
-    });
-
-    $(window).scroll(function() {
-      if ($(".navbar").offset().top > 50) {
+    function collapseNavOnScroll() {
+      var $navbar = $(".navbar");
+      if (!$navbar.length) {
+        return;
+      }
+      if ($navbar.offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-          } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-          }
-    });
+      } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+      }
+    }
+
+    function bindNavbarBehavior() {
+      $(document).on('click', '.navbar-collapse a', function(){
+        $(".navbar-collapse").collapse('hide');
+      });
+      $(window).on('scroll', collapseNavOnScroll);
+      collapseNavOnScroll();
+    }
 
 
     // SLIDER
@@ -100,15 +108,17 @@
 
 
     // SMOOTHSCROLL
-    $(function() {
-      $('.custom-navbar a, #home a').on('click', function(event) {
-        var $anchor = $(this);
+    function bindSmoothScroll() {
+      $(document).on('click', '.smoothScroll', function(event) {
+        var target = $(this).attr('href');
+        if (target && target.indexOf('#') === 0 && $(target).length) {
           $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 49
+            scrollTop: $(target).offset().top - 49
           }, 1000);
-            event.preventDefault();
+          event.preventDefault();
+        }
       });
-    });  
+    }
 
 
     // WOW ANIMATION
@@ -268,6 +278,8 @@
       }
     };
 
+    var currentLang = localStorage.getItem('siteLang') || 'zh';
+
     function applyTranslations(lang) {
       var map = translations[lang] || translations.en;
       $('[data-i18n]').each(function() {
@@ -279,14 +291,58 @@
       $('.lang-option').removeClass('active');
       $('.lang-option[data-lang="' + lang + '"]').addClass('active');
       localStorage.setItem('siteLang', lang);
+      currentLang = lang;
     }
 
-    $('.lang-option').on('click', function(e) {
+    // Shared navbar template so all pages reuse the same markup without duplication
+    var navbarTemplate = '\
+<section class="navbar custom-navbar navbar-fixed-top" role="navigation">\
+  <div class="container">\
+    <div class="navbar-header">\
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">\
+        <span class="icon icon-bar"></span>\
+        <span class="icon icon-bar"></span>\
+        <span class="icon icon-bar"></span>\
+      </button>\
+      <a href="index.html" class="navbar-brand">浅喜<span>.</span>CASACHY</a>\
+    </div>\
+    <div class="collapse navbar-collapse">\
+      <ul class="nav navbar-nav navbar-nav-first">\
+        <li><a href="index.html" data-i18n="nav.home">ホーム</a></li>\
+        <li><a href="about.html" data-i18n="nav.about">浅喜について</a></li>\
+        <li><a href="wares.html" data-i18n="nav.objects">Casachy Wares</a></li>\
+        <li><a href="#menu" class="smoothScroll" data-i18n="nav.menu">浅喜家具</a></li>\
+        <li><a href="#contact" class="smoothScroll" data-i18n="nav.contact">Contact</a></li>\
+      </ul>\
+      <ul class="nav navbar-nav navbar-right">\
+        <li><a href="#"><span data-i18n="nav.call">Call Now!</span> <i class="fa fa-phone"></i> 090-9873-2131</a></li>\
+      </ul>\
+    </div>\
+  </div>\
+</section>';
+
+    function loadNavbar() {
+      var placeholder = document.getElementById('navbar-placeholder');
+      if (!placeholder) {
+        return Promise.resolve();
+      }
+      placeholder.innerHTML = navbarTemplate;
+      return Promise.resolve();
+    }
+
+    $(document).on('click', '.lang-option', function(e) {
       e.preventDefault();
       var lang = $(this).data('lang');
       applyTranslations(lang);
     });
 
-    applyTranslations('ja');
+    $(function() {
+      bindSmoothScroll();
+      applyTranslations(currentLang);
+      loadNavbar().then(function() {
+        bindNavbarBehavior();
+        applyTranslations(currentLang);
+      });
+    });
 
 })(jQuery);
