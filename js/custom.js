@@ -443,6 +443,57 @@
       return Promise.resolve();
     }
 
+    function updateWaresLabels(titleKey, subtitleKey) {
+      var map = translations[currentLang] || translations.en;
+      var $title = $('#wares-filter-title');
+      var $subtitle = $('#wares-filter-subtitle');
+      if ($title.length && titleKey) {
+        $title.attr('data-i18n', titleKey).text(map[titleKey] || titleKey);
+      }
+      if ($subtitle.length && subtitleKey) {
+        $subtitle.attr('data-i18n', subtitleKey).text(map[subtitleKey] || subtitleKey);
+      }
+    }
+
+    function bindWaresFilter() {
+      var $grid = $('#wares-grid');
+      if (!$grid.length) {
+        return;
+      }
+
+      var $items = $grid.find('.menu-item-wrap');
+
+      function setFilter(category, titleKey, subtitleKey) {
+        $items.each(function() {
+          var isMatch = category === 'all' || $(this).data('category') === category;
+          $(this).toggle(isMatch);
+        });
+        if (titleKey && subtitleKey) {
+          updateWaresLabels(titleKey, subtitleKey);
+        }
+      }
+
+      $(document).on('click', '.filter-btn', function(e) {
+        e.preventDefault();
+        var $btn = $(this);
+        if ($btn.hasClass('active')) {
+          return;
+        }
+        var category = $btn.data('filter');
+        var titleKey = $btn.data('title-key');
+        var subtitleKey = $btn.data('subtitle-key');
+
+        $('.filter-btn').removeClass('active');
+        $btn.addClass('active');
+        setFilter(category, titleKey, subtitleKey);
+      });
+
+      var initialBtn = $('.filter-btn.active');
+      if (initialBtn.length) {
+        setFilter(initialBtn.data('filter'), initialBtn.data('title-key'), initialBtn.data('subtitle-key'));
+      }
+    }
+
     $(document).on('click', '.lang-option', function(e) {
       e.preventDefault();
       var lang = $(this).data('lang');
@@ -456,6 +507,7 @@
         bindNavbarBehavior();
         applyTranslations(currentLang);
       });
+      bindWaresFilter();
     });
 
 })(jQuery);

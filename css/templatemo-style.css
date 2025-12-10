@@ -561,6 +561,36 @@ http://www.templatemo.com/tm-515-eatery
     padding: 0;
   }
 
+  .wares-menu .menu-filter {
+    text-align: center;
+    margin: 10px 0 35px;
+  }
+
+  .wares-menu .filter-btn {
+    margin: 0 6px;
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: 1px solid var(--brand-color);
+    color: var(--brand-color);
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .wares-menu .filter-btn:hover,
+  .wares-menu .filter-btn.active {
+    background: var(--brand-color);
+    color: #ffffff;
+  }
+
+  #wares-grid .menu-item-wrap {
+    display: none;
+  }
+
+  #wares-grid .menu-item-wrap[data-category="wood"] {
+    display: block;
+  }
+
   .menu-thumb img {
     width: 100%;
     transition: 0.5s;
