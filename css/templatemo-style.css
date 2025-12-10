@@ -584,7 +584,40 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #wares-grid .menu-item-wrap {
+    display: inline-block;
+    width: 100%;
+    float: none;
+    margin: 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .wares-menu #wares-grid {
+    column-count: 3;
+    column-gap: 0;
+    margin-top: 10px;
+  }
+
+  #wares-grid .menu-thumb {
+    width: 100%;
+  }
+
+  #wares-grid .menu-thumb img {
+    width: 100%;
+    height: auto;
     display: block;
+  }
+
+  @media (max-width: 991px) {
+    .wares-menu #wares-grid {
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .wares-menu #wares-grid {
+      column-count: 1;
+    }
   }
 
   .menu-thumb img {
