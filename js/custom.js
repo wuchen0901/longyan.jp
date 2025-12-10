@@ -474,6 +474,7 @@
       }
 
       var $items = $grid.find('.menu-item-wrap');
+      var queryFilter = new URLSearchParams(window.location.search).get('filter');
 
       function setFilter(category, titleKey, subtitleKey) {
         $items.each(function() {
@@ -501,6 +502,14 @@
       });
 
       var initialBtn = $('.filter-btn.active');
+      if (queryFilter) {
+        var $queryBtn = $('.filter-btn[data-filter="' + queryFilter + '"]');
+        if ($queryBtn.length) {
+          $('.filter-btn').removeClass('active');
+          $queryBtn.addClass('active');
+          initialBtn = $queryBtn;
+        }
+      }
       if (initialBtn.length) {
         setFilter(initialBtn.data('filter'), initialBtn.data('title-key'), initialBtn.data('subtitle-key'));
       }

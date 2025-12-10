@@ -470,6 +470,12 @@ http://www.templatemo.com/tm-515-eatery
     background: #f9f9f9;
   }
 
+  .team-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
   .team-thumb {
     position: relative;
     overflow: hidden;
