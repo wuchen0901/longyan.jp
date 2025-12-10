@@ -584,10 +584,6 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #wares-grid .menu-item-wrap {
-    display: none;
-  }
-
-  #wares-grid .menu-item-wrap[data-category="wood"] {
     display: block;
   }
 
