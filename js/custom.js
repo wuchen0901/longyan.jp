@@ -329,7 +329,8 @@
       }
     };
 
-    var currentLang = localStorage.getItem('siteLang') || 'zh';
+    // Default to Japanese on every load; users can still switch via the language toggles
+    var currentLang = 'ja';
 
     function applyTranslations(lang) {
       var map = translations[lang] || translations.en;
@@ -341,7 +342,6 @@
       });
       $('.lang-option').removeClass('active');
       $('.lang-option[data-lang="' + lang + '"]').addClass('active');
-      localStorage.setItem('siteLang', lang);
       currentLang = lang;
     }
 
