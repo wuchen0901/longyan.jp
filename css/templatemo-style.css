@@ -584,7 +584,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #wares-grid .menu-item-wrap {
-    display: inline-block;
+    display: block;
     width: 100%;
     float: none;
     margin: 0;
@@ -595,7 +595,7 @@ http://www.templatemo.com/tm-515-eatery
   .wares-menu #wares-grid {
     column-count: 3;
     column-gap: 0;
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   #wares-grid .menu-thumb {
