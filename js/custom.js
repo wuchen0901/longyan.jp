@@ -197,7 +197,7 @@
         'nav.home': 'ホーム',
         'nav.about': '浅喜について',
         'nav.chef': '浅喜文玩器物',
-        'nav.objects': 'Casachy Wares',
+        'nav.objects': '浅喜文玩器物',
         'nav.menu': '浅喜家具',
         'nav.contact': 'お問い合わせ',
         'nav.call': '今すぐ電話',
