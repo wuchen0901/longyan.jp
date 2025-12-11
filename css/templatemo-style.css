@@ -770,6 +770,55 @@ http://www.templatemo.com/tm-515-eatery
     padding-bottom: 0;
   }
 
+  .contact-info-card {
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    padding: 24px 26px;
+    margin-bottom: 25px;
+    border-left: 4px solid var(--brand-color);
+  }
+
+  .contact-title h2 {
+    margin-bottom: 6px;
+  }
+
+  .contact-lead {
+    margin: 0 0 12px;
+    color: #777777;
+    font-size: 14px;
+  }
+
+  .contact-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .contact-info-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .contact-info-row i {
+    color: var(--brand-color);
+    font-size: 18px;
+    margin-top: 2px;
+    width: 18px;
+    text-align: center;
+  }
+
+  .contact-info-row a {
+    color: inherit;
+  }
+
+  .contact-info-row a:hover {
+    color: var(--brand-color);
+  }
+
   #contact .text-success,
   #contact .text-danger {
     display: none;
