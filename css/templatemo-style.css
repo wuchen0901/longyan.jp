@@ -797,6 +797,67 @@ http://www.templatemo.com/tm-515-eatery
     border: 0;
   }
 
+  /* Careers / job card */
+  .job-card {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    border: 0;
+  }
+
+  .job-pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .job-pill {
+    background: rgba(0,0,0,0.05);
+    color: #444444;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .job-section + .job-section {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .job-section h5 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+    color: #222222;
+  }
+
+  .job-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 8px;
+  }
+
+  .job-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444444;
+  }
+
+  .job-list i {
+    color: var(--brand-color);
+    min-width: 16px;
+  }
+
   .contact-info-card {
     padding: 0;
     margin-bottom: 10px;
