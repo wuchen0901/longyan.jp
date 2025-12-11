@@ -122,7 +122,7 @@ http://www.templatemo.com/tm-515-eatery
     padding: 100px 0;
   }
 
-  #team, 
+  #wares-preview, 
   #wares,
   #testimonial {
     text-align: center;
@@ -443,10 +443,10 @@ http://www.templatemo.com/tm-515-eatery
 
 
   /*---------------------------------------
-      TEAM              
+      WARES PREVIEW              
   -----------------------------------------*/
 
-  #team {
+  #wares-preview {
     background: #f9f9f9;
   }
 
