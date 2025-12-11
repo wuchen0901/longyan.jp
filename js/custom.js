@@ -472,13 +472,13 @@
 
     var contactTemplate = '\
 <div class="container">\
-  <div class="row">\
-    <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">\
-      <div id="google-map">\
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588.7693862535345!2d135.7963301195051!3d35.02622652792757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010904fbe5c1e3%3A0x44c4718ccbc2b836!2s9-6%20J%C5%8Ddoji%20Minamidach%C5%8D%2C%20Sakyo%20Ward%2C%20Kyoto%2C%20606-8403!5e0!3m2!1sen!2sjp!4v1764655919648!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\
+  <div class="row contact-row">\
+    <div class="wow fadeInUp col-md-6 col-sm-12 contact-map-col" data-wow-delay="0.4s">\
+      <div id="google-map" class="contact-map">\
+        <iframe class="contact-map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588.7693862535345!2d135.7963301195051!3d35.02622652792757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010904fbe5c1e3%3A0x44c4718ccbc2b836!2s9-6%20J%C5%8Ddoji%20Minamidach%C5%8D%2C%20Sakyo%20Ward%2C%20Kyoto%2C%20606-8403!5e0!3m2!1sen!2sjp!4v1764655919648!5m2!1sen!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>\
       </div>\
     </div>\
-    <div class="col-md-6 col-sm-12">\
+    <div class="col-md-6 col-sm-12 contact-card-col">\
       <div class="contact-info-card wow fadeInUp" data-wow-delay="0.1s">\
         <div class="section-title contact-title">\
           <h2>地址 / 联系方式</h2>\
