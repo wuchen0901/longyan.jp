@@ -129,8 +129,7 @@
       en: {
         'nav.home': 'Home',
         'nav.about': 'About',
-        'nav.chef': 'Casachy Wares',
-        'nav.objects': 'Casachy Wares',
+        'nav.wares': 'Casachy Wares',
         'nav.menu': 'Casachy Furniture',
         'nav.contact': 'Contact',
         'nav.call': 'Call Now!',
@@ -196,8 +195,7 @@
       ja: {
         'nav.home': 'ホーム',
         'nav.about': '浅喜について',
-        'nav.chef': '浅喜文玩器物',
-        'nav.objects': '浅喜文玩器物',
+        'nav.wares': '浅喜文玩器物',
         'nav.menu': '浅喜家具',
         'nav.contact': 'お問い合わせ',
         'nav.call': '今すぐ電話',
@@ -263,8 +261,7 @@
       zh: {
         'nav.home': '首页',
         'nav.about': '关于我们',
-        'nav.chef': '浅喜文玩器物',
-        'nav.objects': '浅喜器物',
+        'nav.wares': '浅喜器物',
         'nav.menu': '浅喜家具',
         'nav.contact': '联系',
         'nav.call': '立即拨打',
@@ -379,7 +376,7 @@
       <ul class="nav navbar-nav navbar-nav-first">\
         <li><a href="index.html" data-i18n="nav.home">ホーム</a></li>\
         <li><a href="about.html" data-i18n="nav.about">浅喜について</a></li>\
-        <li><a href="wares.html" data-i18n="nav.objects">Casachy Wares</a></li>\
+        <li><a href="wares.html" data-i18n="nav.wares">Casachy Wares</a></li>\
         <li><a href="furniture.html" data-i18n="nav.menu">浅喜家具</a></li>\
         <li><a href="careers.html" data-i18n="nav.careers">採用情報</a></li>\
       </ul>\
