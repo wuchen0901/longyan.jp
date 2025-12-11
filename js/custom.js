@@ -137,28 +137,28 @@
         'contact.heading': 'Contact Us',
         'contact.address': '9-6 Jodoji Minamidacho, Sakyo Ward, Kyoto 606-8403',
         'contact.wechat': 'WeChat: sunnychantak',
-        'hero1.subtitle': 'Join Casachy',
+        'hero1.subtitle': 'Join longyan',
         'hero1.title': 'Join us to bring thousand-year Eastern aesthetics into modern daily life',
         'hero1.cta': 'View roles',
-        'hero2.subtitle': 'Casachy wares',
+        'hero2.subtitle': 'longyan wares',
         'hero2.title': 'Carrying Eastern spirit, reviving elegant wares',
         'hero2.cta': 'Explore wares',
-        'hero3.subtitle': 'Casachy Furniture',
+        'hero3.subtitle': 'longyan Furniture',
         'hero3.title': 'Ensure every furniture piece feels alive',
         'hero3.cta': 'View furniture',
-        'about.kicker': 'About Casachy',
+        'about.kicker': 'About longyan',
         'about.title': 'Savor every detail and charm of each antique piece',
-        'about.body1': 'Living spaces go beyond furniture—they include the tea utensils of tea lovers, the brush and ink treasures of literati, and every object that carries spirit. Casachy draws on heirloom pieces, savoring their texture and charm, using just-right craft and design to awaken refined taste and revive an elegant atmosphere.',
-        'about.body2': 'Casachy wares choose natural materials and follow traditional methods to achieve a simple, lustrous feel. Song-dynasty objects were often monochrome, clean, and balanced—measured proportions, gentle texture, and restrained beauty. Continuing that lineage, Casachy reserves a quiet corner in daily bustle for a calm mind.',
+        'about.body1': 'Living spaces go beyond furniture—they include the tea utensils of tea lovers, the brush and ink treasures of literati, and every object that carries spirit. longyan draws on heirloom pieces, savoring their texture and charm, using just-right craft and design to awaken refined taste and revive an elegant atmosphere.',
+        'about.body2': 'longyan wares choose natural materials and follow traditional methods to achieve a simple, lustrous feel. Song-dynasty objects were often monochrome, clean, and balanced—measured proportions, gentle texture, and restrained beauty. Continuing that lineage, longyan reserves a quiet corner in daily bustle for a calm mind.',
         'about.meaning.title': 'Meaning of the name',
-        'about.meaning.body1': '“Casachy” suggests a gentle, unobtrusive joy—a calm attitude that comes from within and seeks balance.',
+        'about.meaning.body1': '“longyan” suggests a gentle, unobtrusive joy—a calm attitude that comes from within and seeks balance.',
         'about.meaning.body2': 'It is like the Buddha’s serene smile at a single flower, or the fleeting feeling in Zhuangzi’s butterfly dream.',
         'about.background.title': 'Brand background',
-        'about.background.body1': 'Founder and design director Chen Xin grew up loving classical literati aesthetics. Inspired in 2010, he spent three years preparing and launched Casachy in 2013 to create furniture and objects with the spirit of Song-era elegance.',
-        'about.style.title': 'Casachy style: honoring classics, seeking the new',
-        'about.style.body1': 'Drawing from Song-dynasty literati culture, Casachy searches for the inner spirit of oriental craft—integrating furniture and objects into tranquil tea rooms and study spaces for a holistic aesthetic.',
+        'about.background.body1': 'Founder and design director Chen Xin grew up loving classical literati aesthetics. Inspired in 2010, he spent three years preparing and launched longyan in 2013 to create furniture and objects with the spirit of Song-era elegance.',
+        'about.style.title': 'longyan style: honoring classics, seeking the new',
+        'about.style.body1': 'Drawing from Song-dynasty literati culture, longyan searches for the inner spirit of oriental craft—integrating furniture and objects into tranquil tea rooms and study spaces for a holistic aesthetic.',
         'about.more': 'More',
-        'wares.title': 'Casachy wares',
+        'wares.title': 'longyan wares',
         'wares.subtitle': 'Savor the Zen of moonlit pines',
         'product.wood': 'Wood',
         'product.ceramic': 'Ceramic',
@@ -175,7 +175,7 @@
         'wares.filter.glassSubtitle': 'Transparent, modern, light and airy',
         'testimonial.title': 'Testimonials',
         'nav.careers': 'Careers',
-        'careers.heading': 'Casachy Careers',
+        'careers.heading': 'longyan Careers',
         'careers.title': 'Store Staff Roles',
         'careers.tag.fullpart': 'Full-time · Part-time',
         'careers.tag.tea': 'Tea culture enthusiast',
@@ -201,49 +201,49 @@
         'hours.weekdayHours': '7:00 AM - 9:00 PM',
         'hours.weekend': 'Saturday - Sunday',
         'hours.weekendHours': '11:00 AM - 10:00 PM',
-        'furniture.kicker': 'Casachy Furniture',
-        'furniture.title': 'Casachy Furniture',
+        'furniture.kicker': 'longyan Furniture',
+        'furniture.title': 'longyan Furniture',
         'furniture.tagline': 'Every furniture piece feels alive',
         'furniture.title.craft': 'Honoring traditional craft, perfecting every detail',
         'furniture.title.wood': 'We choose solid wood to keep its warm, substantial feel',
         'furniture.intro1': 'We sort through classical forms and set strict requirements so every piece feels alive. Materials and craft are tightly controlled: all wood is FSC-certified and production is BSCI-certified to meet EU social responsibility standards.',
-        'furniture.intro2': '"Casachy" is a quiet attitude—an inner awakening, a gentle balance like a flower held with a smile or the fleeting feeling of a butterfly dream.',
+        'furniture.intro2': '"longyan" is a quiet attitude—an inner awakening, a gentle balance like a flower held with a smile or the fleeting feeling of a butterfly dream.',
         'furniture.craft1': 'Mortise-and-tenon is the core of Chinese furniture—often unseen outside but central within. We insist on true joinery, not biscuits or dowels, to carry the tradition. Built to classical precision, chairs sit steady even before glue. Many joints resist mass production, so much work stays hand-made.',
         'furniture.craft2': 'We use solid wood for its warm, breathing quality. Like classical pieces, we frame panels on all sides to manage movement, a labor-intensive approach that keeps table tops stable and reassuring.'
       },
       ja: {
         'nav.home': 'ホーム',
-        'nav.about': '浅喜について',
-        'nav.wares': '浅喜文玩器物',
-        'nav.furniture': '浅喜家具',
+        'nav.about': '朗元について',
+        'nav.wares': '朗元文玩器物',
+        'nav.furniture': '朗元家具',
         'nav.contact': 'お問い合わせ',
         'nav.call': '今すぐ電話',
         'nav.reserve': '予約する',
         'contact.heading': 'お問い合わせ',
         'contact.address': '京都府京都市左京区浄土寺南田町9番地6',
         'contact.wechat': 'WeChat: sunnychantak',
-        'hero1.subtitle': '浅喜に参加',
+        'hero1.subtitle': '朗元に参加',
         'hero1.title': '千年の東方美学を現代の日常に届ける仲間を募集',
         'hero1.cta': '募集を見る',
-        'hero2.subtitle': '浅喜器物',
+        'hero2.subtitle': '朗元器物',
         'hero2.title': '東方の精神を受け継ぎ、器物の雅さを再現',
         'hero2.cta': '器物を見る',
-        'hero3.subtitle': '浅喜家具',
+        'hero3.subtitle': '朗元家具',
         'hero3.title': 'すべての家具に生命感を宿す',
         'hero3.cta': '家具を見る',
-        'about.kicker': '浅喜について',
+        'about.kicker': '朗元について',
         'about.title': '古物の細部と風趣を味わう',
-        'about.body1': '暮らしの空間は家具だけでなく、茶人の茶器や文人の文房具、気韻を宿す一つひとつの器物まで含まれます。浅喜は伝世品に学び、その肌理と風趣を味わい、ちょうどよい工芸とデザインで内なる雅趣を呼び覚まし、優雅な空気を再構築します。',
-        'about.body2': '浅喜の器物は天然素材と古法の技を選び、素朴で艶のある質感を目指します。宋代の器は単色が多く、簡潔で均整がとれた造形と控えめな肌理で内に秘めた美を示しました。その系譜を継ぎ、日常の喧噪に静かな余白を残し、心を安んじる場をつくります。',
+        'about.body1': '暮らしの空間は家具だけでなく、茶人の茶器や文人の文房具、気韻を宿す一つひとつの器物まで含まれます。朗元は伝世品に学び、その肌理と風趣を味わい、ちょうどよい工芸とデザインで内なる雅趣を呼び覚まし、優雅な空気を再構築します。',
+        'about.body2': '朗元の器物は天然素材と古法の技を選び、素朴で艶のある質感を目指します。宋代の器は単色が多く、簡潔で均整がとれた造形と控えめな肌理で内に秘めた美を示しました。その系譜を継ぎ、日常の喧噪に静かな余白を残し、心を安んじる場をつくります。',
         'about.meaning.title': '名称の意味',
-        'about.meaning.body1': '「浅喜」は、内面から生まれる穏やかな悦びを指し、偏りなく中庸を求める姿勢を表します。',
+        'about.meaning.body1': '「朗元」は、内面から生まれる穏やかな悦びを指し、偏りなく中庸を求める姿勢を表します。',
         'about.meaning.body2': '一輪の花に微笑む仏のように、荘周夢蝶の淡い感覚のように、ふと心が動く瞬間を大切にしています。',
         'about.background.title': 'ブランドの背景',
-        'about.background.body1': '創業者・デザインディレクターの陳新は、宋代の文人美学に魅せられ、2013年に浅喜を立ち上げました。現代の空間に合う家具と器を、伝統の技と精神で形にしています。',
-        'about.style.title': '浅喜のスタイル：格古而知新',
+        'about.background.body1': '創業者・デザインディレクターの陳新は、宋代の文人美学に魅せられ、2013年に朗元を立ち上げました。現代の空間に合う家具と器を、伝統の技と精神で形にしています。',
+        'about.style.title': '朗元のスタイル：格古而知新',
         'about.style.body1': '宋代文人文化を源流に、茶室や書斎など静かな空間に調和する家具と器を総合的に探求し、古典の精神を今に生かします。',
         'about.more': '詳細を見る',
-        'wares.title': '浅喜器物',
+        'wares.title': '朗元器物',
         'wares.subtitle': '明月と松の間の禅意を味わう',
         'product.wood': '木製',
         'product.ceramic': '陶器',
@@ -260,7 +260,7 @@
         'wares.filter.glassSubtitle': '透明感、モダン、軽やかで動きのある印象',
         'testimonial.title': 'お客様の声',
         'nav.careers': '採用情報',
-        'careers.heading': '浅喜採用',
+        'careers.heading': '朗元採用',
         'careers.title': '店舗スタッフ募集',
         'careers.tag.fullpart': 'フルタイム・パート',
         'careers.tag.tea': 'お茶が好きな方',
@@ -286,49 +286,49 @@
         'hours.weekdayHours': '7:00 AM - 9:00 PM',
         'hours.weekend': '土曜・日曜',
         'hours.weekendHours': '11:00 AM - 10:00 PM',
-        'furniture.kicker': '浅喜家具',
-        'furniture.title': '浅喜家具',
+        'furniture.kicker': '朗元家具',
+        'furniture.title': '朗元家具',
         'furniture.tagline': 'すべての家具に生命感を宿す',
         'furniture.title.craft': '伝統の技を守り、細部まで磨き上げる',
         'furniture.title.wood': '無垢材を選び、その温もりと重厚感を活かす',
         'furniture.intro1': '古典の形制を整理し、厳しい基準で調整して、すべての家具に生命感を宿す。素材と工法は徹底管理し、木材はFSC認証、製造はBSCI認証でEUの社会的責任基準に適合させています。',
-        'furniture.intro2': '「浅喜」は静かな姿勢。中庸を求める内なる悟りであり、拈花微笑や夢蝶のような淡い感覚を大切にします。',
+        'furniture.intro2': '「朗元」は静かな姿勢。中庸を求める内なる悟りであり、拈花微笑や夢蝶のような淡い感覚を大切にします。',
         'furniture.craft1': '中国伝統家具の核心は榫卯（ほぞ組）で、外からは見えなくても最重要。ビスケットやダボではなく本来の榫卯を守り、文化を継承します。古法の精度で組むので、接着前の椅子でもしっかり座れます。多くの工程が機械量産に向かず、手仕事が欠かせません。',
         'furniture.craft2': '温かな質感をもつ無垢材を使用。四方框に芯板を通す伝統構造で木の呼吸に対応し、手間はかかりますが安定した天板を実現します。',
       },
       zh: {
         'nav.home': '首页',
         'nav.about': '关于我们',
-        'nav.wares': '浅喜器物',
-        'nav.furniture': '浅喜家具',
+        'nav.wares': '朗元器物',
+        'nav.furniture': '朗元家具',
         'nav.contact': '联系',
         'nav.call': '立即拨打',
         'nav.reserve': '预订座位',
         'contact.heading': '联系我们',
         'contact.address': '京都府京都市左京区浄土寺南田町9番地6',
         'contact.wechat': '微信: sunnychantak',
-        'hero1.subtitle': '加入浅喜',
+        'hero1.subtitle': '加入朗元',
         'hero1.title': '与我们一起，让千年东方美学走进现代日常',
         'hero1.cta': '查看职位',
-        'hero2.subtitle': '浅喜器物',
+        'hero2.subtitle': '朗元器物',
         'hero2.title': '秉承东方精神 再現器物的典雅气息',
         'hero2.cta': '查看器物',
-        'hero3.subtitle': '浅喜家具',
+        'hero3.subtitle': '朗元家具',
         'hero3.title': '确保每一件家具都是活着的有生命力的作品',
         'hero3.cta': '查看家具',
-        'about.kicker': '关于浅喜',
+        'about.kicker': '关于朗元',
         'about.title': '把握每一件古物的细节和韵味',
-        'about.body1': '生活空间不止于家具，还有茶人的茶器、文人的文房书宝，以及每一件承载气韵的器物。浅喜从传世之物汲取灵感，细味古玩的肌理与韵致，以恰到好处的工艺和设计，唤醒内心的高雅趣味，再造雅致气息。',
-        'about.body2': '浅喜器物选用天然材质、沿用古法工艺，追求朴素而有光泽的质感。宋代器物多单色、简洁而优美，以匀称的造型、舒适的比例、含蓄的肌理呈现内敛之美。浅喜秉承这一脉络，在喧嚣的日常里留一方静谧，让人得以安放自心。',
+        'about.body1': '生活空间不止于家具，还有茶人的茶器、文人的文房书宝，以及每一件承载气韵的器物。朗元从传世之物汲取灵感，细味古玩的肌理与韵致，以恰到好处的工艺和设计，唤醒内心的高雅趣味，再造雅致气息。',
+        'about.body2': '朗元器物选用天然材质、沿用古法工艺，追求朴素而有光泽的质感。宋代器物多单色、简洁而优美，以匀称的造型、舒适的比例、含蓄的肌理呈现内敛之美。朗元秉承这一脉络，在喧嚣的日常里留一方静谧，让人得以安放自心。',
         'about.meaning.title': '名称的意义',
-        'about.meaning.body1': '“浅喜”象征一种温和而宁静的喜悦，来自内心，对中道的追寻。',
+        'about.meaning.body1': '“朗元”象征一种温和而宁静的喜悦，来自内心，对中道的追寻。',
         'about.meaning.body2': '宛如佛典中的拈花一笑，也似庄周梦蝶的恍惚感悟，轻柔而悠远。',
         'about.background.title': '品牌背景',
-        'about.background.body1': '创始人兼设计总监陈新自幼热爱文人美学，2013年创立浅喜，将宋代意趣与当代空间结合，打造雅致器物与家具。',
+        'about.background.body1': '创始人兼设计总监陈新自幼热爱文人美学，2013年创立朗元，将宋代意趣与当代空间结合，打造雅致器物与家具。',
         'about.style.title': '格古而知新',
         'about.style.body1': '取法宋代文人文化，强调器与空间的整体美学，将古典精神融入现代茶室与书房的静谧氛围。',
         'about.more': '查看更多',
-        'wares.title': '浅喜文玩器物',
+        'wares.title': '朗元文玩器物',
         'wares.subtitle': '品味明月松间的禅意',
         'product.wood': '木质',
         'product.ceramic': '陶瓷',
@@ -345,7 +345,7 @@
         'wares.filter.glassSubtitle': '通透、现代感、轻盈灵动',
         'testimonial.title': '顾客见证',
         'nav.careers': '招聘信息',
-        'careers.heading': '浅喜招聘',
+        'careers.heading': '朗元招聘',
         'careers.title': '店员招聘',
         'careers.tag.fullpart': '全职 · 兼职',
         'careers.tag.tea': '茶文化爱好者',
@@ -371,15 +371,15 @@
         'hours.weekdayHours': '7:00 AM - 9:00 PM',
         'hours.weekend': '周六、周日',
         'hours.weekendHours': '11:00 AM - 10:00 PM',
-        'furniture.kicker': '浅喜家具',
-        'furniture.title': '浅喜家具',
+        'furniture.kicker': '朗元家具',
+        'furniture.title': '朗元家具',
         'furniture.tagline': '每一件家具都是活着的有生命力',
         'furniture.title.craft': '秉承传统工艺的理念，注重细微之处',
         'furniture.title.wood': '坚持选用纯实木，保留温润厚实的质感',
-        'furniture.intro1': '对古典形制进行梳理，对家具进行了严格的要求及调整。为确保每一件家具都是活着的有生命力的作品，浅喜的家具无论在原材料的选择上及工艺上都严格把关。所用的木材均获得FSC认证(国际森林认证)，制作过程也获得BSCI认证，符合欧盟社会责任的标准。',
-        'furniture.intro2': '“浅喜”是一种安静的态度，是源自内心的感悟，是在不偏不倚中追寻中道，一种淡淡的感觉，如同佛经描摹的拈花一笑，一丝轻轻的触动，就像文人叹咏的庄生梦蝶。',
-        'furniture.craft1': '中国传统家具工艺的核心在于榫卯结构，虽然外部不着痕迹，但是榫卯却是家具文化最关键的部分。浅喜坚持使用纯正的榫卯结构，不仅仅是为了家具的牢固度，更是为了文化的传承。现代家具常用的圆木榫，饼干榫，严格来说并不是真正意义上的传统榫卯。浅喜的榫卯结构完全以古人精工细作的标准来要求自己。比如椅子，在试拼装未涂任何胶水时，就已经可以稳稳端坐。因此，浅喜家具的多数榫卯并不适合机器大规模生产，需要诸多繁复的手作工序。',
-        'furniture.craft2': '浅喜家具的选材上坚持使用实木。实木温润厚实的质感是其他材料所无法替代的。实木是一种会呼吸的材料，随着气候的变化会收缩膨胀，所以浅喜所有的家具和传统家具一样采用了四边框加芯板穿带的结构，来使桌面稳固，这种结构比现在主流的整板实木桌面要费工许多，却也安心许多。'
+        'furniture.intro1': '对古典形制进行梳理，对家具进行了严格的要求及调整。为确保每一件家具都是活着的有生命力的作品，朗元的家具无论在原材料的选择上及工艺上都严格把关。所用的木材均获得FSC认证(国际森林认证)，制作过程也获得BSCI认证，符合欧盟社会责任的标准。',
+        'furniture.intro2': '“朗元”是一种安静的态度，是源自内心的感悟，是在不偏不倚中追寻中道，一种淡淡的感觉，如同佛经描摹的拈花一笑，一丝轻轻的触动，就像文人叹咏的庄生梦蝶。',
+        'furniture.craft1': '中国传统家具工艺的核心在于榫卯结构，虽然外部不着痕迹，但是榫卯却是家具文化最关键的部分。朗元坚持使用纯正的榫卯结构，不仅仅是为了家具的牢固度，更是为了文化的传承。现代家具常用的圆木榫，饼干榫，严格来说并不是真正意义上的传统榫卯。朗元的榫卯结构完全以古人精工细作的标准来要求自己。比如椅子，在试拼装未涂任何胶水时，就已经可以稳稳端坐。因此，朗元家具的多数榫卯并不适合机器大规模生产，需要诸多繁复的手作工序。',
+        'furniture.craft2': '朗元家具的选材上坚持使用实木。实木温润厚实的质感是其他材料所无法替代的。实木是一种会呼吸的材料，随着气候的变化会收缩膨胀，所以朗元所有的家具和传统家具一样采用了四边框加芯板穿带的结构，来使桌面稳固，这种结构比现在主流的整板实木桌面要费工许多，却也安心许多。'
       }
     };
 
@@ -427,14 +427,14 @@
         <span class="icon icon-bar"></span>\
         <span class="icon icon-bar"></span>\
       </button>\
-      <a href="index.html" class="navbar-brand">浅喜<span>.</span>CASACHY</a>\
+      <a href="index.html" class="navbar-brand">朗元<span>.</span>longyan</a>\
     </div>\
     <div class="collapse navbar-collapse">\
       <ul class="nav navbar-nav navbar-nav-first">\
         <li><a href="index.html" data-i18n="nav.home">ホーム</a></li>\
-        <li><a href="about.html" data-i18n="nav.about">浅喜について</a></li>\
-        <li><a href="wares.html" data-i18n="nav.wares">Casachy Wares</a></li>\
-        <li><a href="furniture.html" data-i18n="nav.furniture">浅喜家具</a></li>\
+        <li><a href="about.html" data-i18n="nav.about">朗元について</a></li>\
+        <li><a href="wares.html" data-i18n="nav.wares">longyan Wares</a></li>\
+        <li><a href="furniture.html" data-i18n="nav.furniture">朗元家具</a></li>\
         <li><a href="careers.html" data-i18n="nav.careers">採用情報</a></li>\
       </ul>\
       <ul class="nav navbar-nav navbar-right">\
@@ -466,7 +466,7 @@
           </div>\
           <address class="wow fadeInUp" data-wow-delay="0.4s">\
             <p>090-9873-2131</p>\
-            <p><a href="mailto:sunychan@casachy.com">sunychan@casachy.com</a></p>\
+            <p><a href="mailto:sunychan@longyan.com">sunychan@longyan.com</a></p>\
             <p>WeChat: sunnychantak</p>\
           </address>\
         </div>\
@@ -556,7 +556,7 @@
           <div class="contact-info-row">\
             <i class="fa fa-envelope-o"></i>\
             <div>\
-              <a href="mailto:sunychan@casachy.com">sunychan@casachy.com</a>\
+              <a href="mailto:sunychan@longyan.com">sunychan@longyan.com</a>\
             </div>\
           </div>\
           <div class="contact-info-row">\
