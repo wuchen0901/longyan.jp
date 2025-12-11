@@ -331,6 +331,23 @@
 
     // Default to Japanese on every load; users can still switch via the language toggles
     var currentLang = 'ja';
+    var langCycle = ['zh', 'ja', 'en'];
+    var langLabels = {
+      zh: '中文 🇨🇳',
+      ja: '日本語 🇯🇵',
+      en: 'English 🇺🇸'
+    };
+
+    function updateLangToggleLabel(lang) {
+      var label = langLabels[lang] || langLabels.en;
+      var $btn = $('.lang-toggle-btn');
+      var $span = $btn.find('span');
+      if ($span.length) {
+        $span.text(label);
+      } else {
+        $btn.text(label);
+      }
+    }
 
     function applyTranslations(lang) {
       var map = translations[lang] || translations.en;
@@ -343,6 +360,7 @@
       $('.lang-option').removeClass('active');
       $('.lang-option[data-lang="' + lang + '"]').addClass('active');
       currentLang = lang;
+      updateLangToggleLabel(currentLang);
     }
 
     // Shared navbar template so all pages reuse the same markup without duplication
@@ -368,6 +386,7 @@
       </ul>\
       <ul class="nav navbar-nav navbar-right">\
         <li><a href="#"><span data-i18n="nav.call">Call Now!</span> <i class="fa fa-phone"></i> 090-9873-2131</a></li>\
+        <li><a href="#" class="lang-toggle-btn"><span>日本語 🇯🇵</span></a></li>\
       </ul>\
     </div>\
   </div>\
@@ -519,6 +538,14 @@
       e.preventDefault();
       var lang = $(this).data('lang');
       applyTranslations(lang);
+    });
+
+    $(document).on('click', '.lang-toggle-btn', function(e) {
+      e.preventDefault();
+      var currentIndex = langCycle.indexOf(currentLang);
+      var nextIndex = (currentIndex + 1) % langCycle.length;
+      var nextLang = langCycle[nextIndex] || 'en';
+      applyTranslations(nextLang);
     });
 
     $(function() {
