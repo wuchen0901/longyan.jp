@@ -134,6 +134,9 @@
         'nav.contact': 'Contact',
         'nav.call': 'Call Now!',
         'nav.reserve': 'Reserve a table',
+        'contact.heading': 'Contact Us',
+        'contact.address': '9-6 Jodoji Minamidacho, Sakyo Ward, Kyoto 606-8403',
+        'contact.wechat': 'WeChat: sunnychantak',
         'hero1.subtitle': '浅喜·CASACHY',
         'hero1.title': 'Champion a new literati lifestyle',
         'hero1.cta': 'About Casachy',
@@ -198,6 +201,9 @@
         'nav.contact': 'お問い合わせ',
         'nav.call': '今すぐ電話',
         'nav.reserve': '予約する',
+        'contact.heading': 'お問い合わせ',
+        'contact.address': '京都府京都市左京区浄土寺南田町9番地6',
+        'contact.wechat': 'WeChat: sunnychantak',
         'hero1.subtitle': '浅喜・CASACHY',
         'hero1.title': '新しい文人のライフスタイルを提案します',
         'hero1.cta': '浅喜について',
@@ -262,6 +268,9 @@
         'nav.contact': '联系',
         'nav.call': '立即拨打',
         'nav.reserve': '预订座位',
+        'contact.heading': '联系我们',
+        'contact.address': '京都府京都市左京区浄土寺南田町9番地6',
+        'contact.wechat': '微信: sunnychantak',
         'hero1.subtitle': '浅喜·CASACHY',
         'hero1.title': '倡导新文人生活',
         'hero1.cta': '关于浅喜',
@@ -475,13 +484,13 @@
     <div class="col-md-6 col-sm-12 contact-card-col">\
       <div class="contact-info-card wow fadeInUp" data-wow-delay="0.1s">\
         <div class="section-title contact-title">\
-          <h2>联系我们</h2>\
+          <h2 data-i18n="contact.heading">联系我们</h2>\
         </div>\
         <div class="contact-info-list">\
           <div class="contact-info-row">\
             <i class="fa fa-map-marker"></i>\
             <div>\
-              <strong>京都府京都市左京区浄土寺南田町9番地6</strong>\
+              <strong data-i18n="contact.address">京都府京都市左京区浄土寺南田町9番地6</strong>\
             </div>\
           </div>\
           <div class="contact-info-row">\
@@ -499,7 +508,7 @@
           <div class="contact-info-row">\
             <i class="fa fa-wechat"></i>\
             <div>\
-              <span>WeChat: sunnychantak</span>\
+              <span data-i18n="contact.wechat">WeChat: sunnychantak</span>\
             </div>\
           </div>\
         </div>\
