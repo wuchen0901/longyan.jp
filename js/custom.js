@@ -392,8 +392,28 @@
       }
     };
 
-    // Default to Japanese on every load; users can still switch via the language toggles
-    var currentLang = 'ja';
+    var langStorageKey = 'longyan-preferred-lang';
+    var defaultLang = 'ja';
+    function getStoredLang() {
+      try {
+        var stored = localStorage.getItem(langStorageKey);
+        if (stored && translations[stored]) {
+          return stored;
+        }
+      } catch (err) {
+        // Ignore storage errors and fall back to default
+      }
+      return null;
+    }
+    function setStoredLang(lang) {
+      try {
+        localStorage.setItem(langStorageKey, lang);
+      } catch (err) {
+        // Ignore storage errors
+      }
+    }
+
+    var currentLang = getStoredLang() || defaultLang;
     var langCycle = ['zh', 'ja', 'en'];
     var langLabels = {
       zh: '中文 🇨🇳',
@@ -423,6 +443,7 @@
       $('.lang-option').removeClass('active');
       $('.lang-option[data-lang="' + lang + '"]').addClass('active');
       currentLang = lang;
+      setStoredLang(currentLang);
       updateLangToggleLabel(currentLang);
     }
 
