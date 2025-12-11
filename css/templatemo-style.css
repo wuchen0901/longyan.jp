@@ -123,7 +123,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #team, 
-  #menu,
+  #wares,
   #testimonial {
     text-align: center;
   }
@@ -551,18 +551,18 @@ http://www.templatemo.com/tm-515-eatery
 
 
   /*---------------------------------------
-     MENU              
+     WARES GALLERY              
   -----------------------------------------*/
 
-  #menu {
+  #wares {
     padding-bottom: 0;
   }
 
-  #menu .container {
+  #wares .container {
     width: 100%;
   }
 
-  #menu .col-md-4 {
+  #wares .col-md-4 {
     margin: 0;
     padding: 0;
   }
@@ -635,7 +635,7 @@ http://www.templatemo.com/tm-515-eatery
     transform: scale(1.15);
   }
 
-  #menu .menu-thumb {
+  #wares .menu-thumb {
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -1106,7 +1106,7 @@ http://www.templatemo.com/tm-515-eatery
       margin-bottom: 50px;
     }
 
-    #menu .menu-thumb {
+    #wares .menu-thumb {
       width: 103%;
     }
 
