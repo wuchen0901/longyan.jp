@@ -481,8 +481,7 @@
     <div class="col-md-6 col-sm-12 contact-card-col">\
       <div class="contact-info-card wow fadeInUp" data-wow-delay="0.1s">\
         <div class="section-title contact-title">\
-          <h2>地址 / 联系方式</h2>\
-          <p class="contact-lead">预约参观请提前联系</p>\
+          <h2>联系我们</h2>\
         </div>\
         <div class="contact-info-list">\
           <div class="contact-info-row">\
