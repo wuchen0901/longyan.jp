@@ -185,9 +185,9 @@
         'furniture.tagline': 'Every furniture piece feels alive',
         'furniture.title.craft': 'Honoring traditional craft, perfecting every detail',
         'furniture.title.wood': 'We choose solid wood to keep its warm, substantial feel',
-        'furniture.intro1': 'We refine classical forms and strictly adjust our furniture so every piece feels alive. Materials are carefully chosen and processes certified (FSC wood, BSCI production) to meet responsible standards.',
+        'furniture.intro1': 'We sort through classical forms and set strict requirements so every piece feels alive. Materials and craft are tightly controlled: all wood is FSC-certified and production is BSCI-certified to meet EU social responsibility standards.',
         'furniture.intro2': '"Casachy" is a quiet attitude—an inner awakening, a gentle balance like a flower held with a smile or the fleeting feeling of a butterfly dream.',
-        'furniture.craft1': 'Traditional joinery is the heart of Chinese furniture. We insist on true mortise-and-tenon—not biscuit or dowel—built to historical precision. Many joints cannot be mass-produced and demand patient handwork.',
+        'furniture.craft1': 'Mortise-and-tenon is the core of Chinese furniture—often unseen outside but central within. We insist on true joinery, not biscuits or dowels, to carry the tradition. Built to classical precision, chairs sit steady even before glue. Many joints resist mass production, so much work stays hand-made.',
         'furniture.craft2': 'We use solid wood for its warm, breathing quality. Like classical pieces, we frame panels on all sides to manage movement, a labor-intensive approach that keeps table tops stable and reassuring.'
       },
       ja: {
@@ -249,9 +249,9 @@
         'furniture.tagline': 'すべての家具に生命感を宿す',
         'furniture.title.craft': '伝統の技を守り、細部まで磨き上げる',
         'furniture.title.wood': '無垢材を選び、その温もりと重厚感を活かす',
-        'furniture.intro1': '古典の形を見直し、素材も工法も厳しく管理。FSC認証の木材、BSCI認証の製造で責任ある家具づくりを徹底しています。',
+        'furniture.intro1': '古典の形制を整理し、厳しい基準で調整して、すべての家具に生命感を宿す。素材と工法は徹底管理し、木材はFSC認証、製造はBSCI認証でEUの社会的責任基準に適合させています。',
         'furniture.intro2': '「浅喜」は静かな姿勢。中庸を求める内なる悟りであり、拈花微笑や夢蝶のような淡い感覚を大切にします。',
-        'furniture.craft1': '中国伝統家具の核心は榫卯（ほぞ組）。ビスケットやダボではなく、古法の精緻なほぞを守ります。多くの工程が手作業となり、量産には向きません。',
+        'furniture.craft1': '中国伝統家具の核心は榫卯（ほぞ組）で、外からは見えなくても最重要。ビスケットやダボではなく本来の榫卯を守り、文化を継承します。古法の精度で組むので、接着前の椅子でもしっかり座れます。多くの工程が機械量産に向かず、手仕事が欠かせません。',
         'furniture.craft2': '温かな質感をもつ無垢材を使用。四方框に芯板を通す伝統構造で木の呼吸に対応し、手間はかかりますが安定した天板を実現します。',
       },
       zh: {
