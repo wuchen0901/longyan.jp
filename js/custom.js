@@ -382,7 +382,6 @@
         <li><a href="wares.html" data-i18n="nav.objects">Casachy Wares</a></li>\
         <li><a href="furniture.html" data-i18n="nav.menu">浅喜家具</a></li>\
         <li><a href="careers.html" data-i18n="nav.careers">採用情報</a></li>\
-        <li><a href="#contact" class="smoothScroll" data-i18n="nav.contact">Contact</a></li>\
       </ul>\
       <ul class="nav navbar-nav navbar-right">\
         <li><a href="#"><span data-i18n="nav.call">Call Now!</span> <i class="fa fa-phone"></i> 090-9873-2131</a></li>\
