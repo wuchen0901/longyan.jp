@@ -206,9 +206,9 @@
         'footer.findus': 'Find us',
         'footer.reservation': 'Reservation',
         'footer.hours': 'Open Hours',
-        'hours.monday': 'Monday: Closed',
-        'hours.weekdays': 'Tuesday to Friday',
-        'hours.weekdayHours': '7:00 AM - 9:00 PM',
+        'hours.monday': 'Tuesday - Wednesday: Closed',
+        'hours.weekdays': 'Thursday - Monday',
+        'hours.weekdayHours': '11:00 AM - 5:00 PM',
         'hours.weekend': 'Saturday - Sunday',
         'hours.weekendHours': '11:00 AM - 10:00 PM',
         'furniture.kicker': 'longyan Furniture',
@@ -259,7 +259,7 @@
         'about.meaning.body1': '「朗元」は、内面から生まれる穏やかな悦びを指し、偏りなく中庸を求める姿勢を表します。',
         'about.meaning.body2': '一輪の花に微笑む仏のように、荘周夢蝶の淡い感覚のように、ふと心が動く瞬間を大切にしています。',
         'about.background.title': 'ブランドの背景',
-        'about.background.body1': '創業者・デザインディレクターの陳新は、宋代の文人美学に魅せられ、2013年に朗元を立ち上げました。現代の空間に合う家具と器を、伝統の技と精神で形にしています。',
+        'about.background.body1': '創業者・デザインディレクターの陳新は、宋代の文人美学に魅せられ、2013年に朗元を立ち上げました。現代の空間に合う家具と器を、伝統の技と精神によって形にしています。',
         'about.style.title': '朗元のスタイル：格古而知新',
         'about.style.body1': '宋代文人文化を源流に、茶室や書斎など静かな空間に調和する家具と器を総合的に探求し、古典の精神を今に生かします。',
         'about.more': '詳細を見る',
@@ -301,9 +301,9 @@
         'footer.findus': '所在地',
         'footer.reservation': '予約',
         'footer.hours': '営業時間',
-        'hours.monday': '月曜：定休日',
-        'hours.weekdays': '火曜〜金曜',
-        'hours.weekdayHours': '7:00 AM - 9:00 PM',
+        'hours.monday': '火曜・水曜：定休日',
+        'hours.weekdays': '木曜日〜月曜日',
+        'hours.weekdayHours': '11:00 AM - 5:00 PM',
         'hours.weekend': '土曜・日曜',
         'hours.weekendHours': '11:00 AM - 10:00 PM',
         'furniture.kicker': '朗元家具',
@@ -311,7 +311,7 @@
         'furniture.tagline': 'すべての家具に生命感を宿す',
         'furniture.title.craft': '伝統の技を守り、細部まで磨き上げる',
         'furniture.title.wood': '無垢材を選び、その温もりと重厚感を活かす',
-        'furniture.intro1': '古典の形制を整理し、厳しい基準で調整して、すべての家具に生命感を宿す。素材と工法は徹底管理し、木材はFSC認証、製造はBSCI認証でEUの社会的責任基準に適合させています。',
+        'furniture.intro1': '古典の形制を整理し、厳しい基準のもとで調整を重ね、すべての家具に生命感を宿します。素材と工法は徹底管理し、木材はFSC認証を取得し、製造はBSCI認証を取得しており、EUの社会的責任基準に適合しています。',
         'furniture.intro2': '「朗元」は静かな姿勢。中庸を求める内なる悟りであり、拈花微笑や夢蝶のような淡い感覚を大切にします。',
         'furniture.craft1': '中国伝統家具の核心は榫卯（ほぞ組）で、外からは見えなくても最重要。ビスケットやダボではなく本来の榫卯を守り、文化を継承します。古法の精度で組むので、接着前の椅子でもしっかり座れます。多くの工程が機械量産に向かず、手仕事が欠かせません。',
         'furniture.craft2': '温かな質感をもつ無垢材を使用。四方框に芯板を通す伝統構造で木の呼吸に対応し、手間はかかりますが安定した天板を実現します。',
@@ -396,9 +396,9 @@
         'footer.findus': '找到我们',
         'footer.reservation': '预订',
         'footer.hours': '营业时间',
-        'hours.monday': '周一：休息',
-        'hours.weekdays': '周二至周五',
-        'hours.weekdayHours': '7:00 AM - 9:00 PM',
+        'hours.monday': '周二、周三：休息',
+        'hours.weekdays': '周四至周一',
+        'hours.weekdayHours': '11:00 AM - 5:00 PM',
         'hours.weekend': '周六、周日',
         'hours.weekendHours': '11:00 AM - 10:00 PM',
         'furniture.kicker': '朗元家具',
@@ -528,14 +528,10 @@
             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-i18n="footer.hours">Open Hours</h2>\
           </div>\
           <div class="wow fadeInUp" data-wow-delay="0.4s">\
-            <p data-i18n="hours.monday">Monday: Closed</p>\
+            <p data-i18n="hours.monday">Tuesday - Wednesday: Closed</p>\
             <div>\
-              <strong data-i18n="hours.weekdays">Tuesday to Friday</strong>\
-              <p data-i18n="hours.weekdayHours">7:00 AM - 9:00 PM</p>\
-            </div>\
-            <div>\
-              <strong data-i18n="hours.weekend">Saturday - Sunday</strong>\
-              <p data-i18n="hours.weekendHours">11:00 AM - 10:00 PM</p>\
+              <strong data-i18n="hours.weekdays">Thursday - Monday</strong>\
+              <p data-i18n="hours.weekdayHours">11:00 AM - 5:00 PM</p>\
             </div>\
           </div>\
         </div>\
