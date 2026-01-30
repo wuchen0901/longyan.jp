@@ -558,10 +558,10 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .wares-menu .filter-btn {
-    flex: 0 0 calc(25% - 9px);
-    max-width: calc(25% - 9px);
+    flex: 0 0 auto;
+    max-width: none;
     margin: 0;
-    padding: 10px 8px;
+    padding: 10px 22px;
     border-radius: 30px;
     border: 1px solid var(--brand-color);
     color: var(--brand-color);
@@ -570,6 +570,14 @@ http://www.templatemo.com/tm-515-eatery
     letter-spacing: 1px;
     box-sizing: border-box;
     white-space: nowrap;
+  }
+
+  @media (max-width: 640px) {
+    .wares-menu .filter-btn {
+      flex: 0 0 calc(25% - 9px);
+      max-width: calc(25% - 9px);
+      padding: 10px 8px;
+    }
   }
 
   .wares-menu .filter-btn:hover,
