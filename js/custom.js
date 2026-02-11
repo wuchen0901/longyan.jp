@@ -136,7 +136,6 @@
         'nav.reserve': 'Reserve a table',
         'contact.heading': 'Contact Us',
         'contact.address': '9-6 Jodoji Minamidacho, Sakyo Ward, Kyoto 606-8403',
-        'contact.wechat': 'WeChat: sunnychantak',
         'hero1.subtitle': '朗元·LONGYAN',
         'hero1.title': 'Champion a new literati lifestyle',
         'hero1.cta': 'About Longyan',
@@ -233,7 +232,6 @@
         'nav.reserve': '予約する',
         'contact.heading': 'お問い合わせ',
         'contact.address': '京都府京都市左京区浄土寺南田町9番地6',
-        'contact.wechat': 'WeChat: sunnychantak',
         'hero1.subtitle': '朗元·LONGYAN',
         'hero1.title': '新しい文人のライフスタイルを提唱',
         'hero1.cta': '朗元について',
@@ -330,7 +328,6 @@
         'nav.reserve': '预订座位',
         'contact.heading': '联系我们',
         'contact.address': '京都府京都市左京区浄土寺南田町9番地6',
-        'contact.wechat': '微信: sunnychantak',
         'hero1.subtitle': '朗元·LONGYAN',
         'hero1.title': '倡导新文人生活',
         'hero1.cta': '关于朗元',
@@ -524,7 +521,6 @@
           <address class="wow fadeInUp" data-wow-delay="0.4s">\
             <p>090-9873-2131</p>\
             <p><a href="mailto:casachy8@gmail.com">casachy8@gmail.com</a></p>\
-            <p>WeChat: sunnychantak</p>\
           </address>\
         </div>\
       </div>\
@@ -610,12 +606,6 @@
             <i class="fa fa-envelope-o"></i>\
             <div>\
               <a href="mailto:casachy8@gmail.com">casachy8@gmail.com</a>\
-            </div>\
-          </div>\
-          <div class="contact-info-row">\
-            <i class="fa fa-wechat"></i>\
-            <div>\
-              <span data-i18n="contact.wechat">WeChat: sunnychantak</span>\
             </div>\
           </div>\
         </div>\
