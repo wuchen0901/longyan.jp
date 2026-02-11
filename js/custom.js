@@ -523,7 +523,7 @@
           </div>\
           <address class="wow fadeInUp" data-wow-delay="0.4s">\
             <p>090-9873-2131</p>\
-            <p><a href="mailto:sunychan@longyan.com">sunychan@longyan.com</a></p>\
+            <p><a href="mailto:casachy8@gmail.com">casachy8@gmail.com</a></p>\
             <p>WeChat: sunnychantak</p>\
           </address>\
         </div>\
@@ -609,7 +609,7 @@
           <div class="contact-info-row">\
             <i class="fa fa-envelope-o"></i>\
             <div>\
-              <a href="mailto:sunychan@longyan.com">sunychan@longyan.com</a>\
+              <a href="mailto:casachy8@gmail.com">casachy8@gmail.com</a>\
             </div>\
           </div>\
           <div class="contact-info-row">\
